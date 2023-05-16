@@ -22,5 +22,6 @@ public class MaiorMedia {
 
         System.out.println("Maior: " + maior);
         System.out.println("Média: " + (soma/5));
+    scan.close();
     }
 }

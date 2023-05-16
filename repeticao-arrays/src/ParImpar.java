@@ -6,9 +6,8 @@ public class ParImpar {
 
         Scanner scan = new Scanner(System.in);
 
-        int quantNumeros; 
+        int quantNumeros, numero;
         int count = 0; 
-        int numero;
         int quantPares = 0;
         int quantImpares = 0;
 
@@ -31,6 +30,6 @@ public class ParImpar {
         System.out.println("Pares: " + quantPares);
         System.out.println("Ímpares: " + quantImpares);
 
-
+    scan.close();
     }
 }
